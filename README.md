@@ -27,6 +27,9 @@ SERVER_ID=server1 node server.js
 
 The server will listen on port 8000 by default. You can send events to the server using the /liveEvent endpoint.
 
+Running the Client:
+node client.js
+
 Running the Data Processor:
 SERVER_ID=server1 node dataProcessor.js
 
